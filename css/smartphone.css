@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/*-------------------------------------------------------*/
+/*レスポンシブ--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+@media screen and (max-width:639px) {
+    main{
+        max-width: 100vw;
+    }
+
+    .br{
+        display: none;
+    }
+    
+    .margin_bottom{
+        padding-left: 100px;
+        margin-bottom: 100px;
+    }
+    .top{
+        width : auto;
+    }
+    .menu__list {
+        padding-left: 2px;
+    }
+    .menu__link {
+        font-size: 5px;
+    }
+    .header__logo_absolute{
+        top: 270px;
+        left: 45px;
+    }
+    .logo{
+        width: 80px;
+        height: 40px;
+    }
+    .profile-img__wrapper {
+        width: 100px;
+    }
+    .profile__inner {
+    
+    }
+    .profile-text {
+        margin-left: 0px;
+    }
+    .profile-text__title {
+        font-size: 1.5rem;
+    }
+    .profile-text__lead {
+        font-size: 1.5rem;
+    }
+    .profile-text__lead_center {
+        font-size: 1.5rem;
+    }
+    .profile-text__lead_bottom {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+    .service__card-wrapper{
+        display: block;
+    }
+    .profile-img{
+        width: 100px;
+    }
+    
+    .gray-before:before{
+        width: 100vw;
+    }
+    .profile-item {
+        display: block;
+        padding-top: 100px;
+    }
+    .profile-img__wrapper{
+        height: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .profile-text {
+        margin-left: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+    .profile-img{
+        width: 150px;
+        height: 180px;
+    }
+    .contact__text{
+        width: inherit;
+    }
+    .contact-form__inner{
+        display: block;
+    }
+    .object{
+        background-image: url(/images/bg-wave.svg);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 10000;
+        writing-mode: vertical-lr;
+        padding: 10px;
+    }
+    .object__text {
+        width: 100px;
+        font-size: 1.5rem;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .object_absolute {
+        position: absolute;
+        top: 50px;
+        left: auto;
+        z-index: -1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .center_object{
+        left: 40px;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    .card__img-wrapper {
+        width: 60px;
+        height: 60px;
+    }
+    .card__text{
+        font-size: 1rem;
+    }
+    .service__card {
+        padding-top: 170px;
+        margin-right: 20px;
+    }
+    .card__title {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    .card__link {
+        font-size: 1.1rem;
+    }
+    .gray-before:before {
+        top: 120px;
+        height: 500px;
+    }
+   
+    .grid {
+        display: grid;
+        gap: 10px;
+        padding: 0 5vw;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .works__title-text {
+        font-size: 1.2rem;
+        padding: 170px 20px 0;
+        margin-bottom: 20px;
+    }
+    .sns__box {
+       width: 100%;
+       padding-right: 20px;
+       margin-top: 170px;
+    }
+    .sns_point_object{
+        z-index: 1000;
+        top: -530px;
+    }
+    .contact__text {
+        font-size: 1.2rem;
+        text-align: initial;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+    .contact__contact-form-wrapper {
+        padding-top: 170px;
+    }
+    .contact-form__inner {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .text-wrapper {
+        width: 100%;
+    }
+    .form__name-text, .form__email-text, .form__message-textarea {
+        width: inherit;
+        font-family: EB Garamond,Times New Roman,ＭＳ 明朝,MS Mincho,ヒラギノ明朝 ProN W3,Hiragino Mincho ProN,メイリオ,meiryo,serif;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;;
+    }
+    .form__name, .form__email, .form__message {
+        margin-bottom: 0px; 
+    }
+    .form__message{
+        margin-bottom: 10px;
+    }
+    .form__item {
+        margin-bottom: 30px !important;
+    }
+    .submit__btn {
+        margin: 0 0 0 20px;
+        text-align: start;
+        width: 60px;
+    }
+    .gray_profile::before{
+        height: 450px;
+    }
+    .gray_service::before{
+        height: 650px;
+    }
+    .gray_works::before{
+        height: 1250px;
+    }
+    .gray_sns::before{
+        height: 350px;
+    }
+    .gray_contact::before{
+        height: 750px;
+    }
+    .footer {
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+}
