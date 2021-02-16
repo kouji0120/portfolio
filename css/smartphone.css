@@ -89,7 +89,6 @@
         display: block;
     }
     .object{
-        background-image: url(/images/bg-wave.svg);
         width: 150px;
         height: 150px;
         background-position: center;
